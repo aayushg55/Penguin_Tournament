@@ -251,7 +251,7 @@ class Annealer(object):
             accepts, improves = 0, 0
             for _ in range(steps):
                 dE = self.move()
-                if math.isclose(T, 0, abs_tol=1e-2):
+                if math.isclose(T, 0, abs_tol=1e-4):
                     break
                 if dE is None:
                     E = self.energy()
