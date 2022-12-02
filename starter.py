@@ -41,7 +41,7 @@ def read_input(path: str):
             return G
 
 
-def write_output(G: nx.Graph, path: str, overwrite=False):
+def write_output(G: nx.Graph, path: str, overwrite=True):
     assert overwrite or not os.path.exists(path), \
         'File already exists and overwrite set to False. Move file or set overwrite to True to proceed.'
     if validate_output(G):
