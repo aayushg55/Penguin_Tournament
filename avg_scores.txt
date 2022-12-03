@@ -1,3 +1,0 @@
-small_avg: [('large.in', 2250353.828182846)] 
- medium_avg: [('medium.in', 2274073.828182846)] 
- large_avg: [('small.in', 89760.8281828459)]
